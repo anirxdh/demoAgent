@@ -38,9 +38,6 @@ def main():
         print("You can copy .env.example and fill in your API keys.")
         sys.exit(1)
     
-    # Print welcome banner
-    print_banner()
-    
     # Initialize the agent
     try:
         agent = AIAgent()
